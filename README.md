@@ -7,30 +7,26 @@ Project Description:
 Intrusion detection is a critical aspect of cybersecurity, helping to identify malicious activities in network traffic. This project involves
 
 1. Data Collection:
-• NSL-KDD Dataset: A benchmark dataset for intrusion detection, containing labeled normal and attack traffic.
-• Wireshark Captured Traffic: Real-time network traffic captured using Wireshark, which includes packet details such as source/destination IP, protocol, and payload information.
+NSL-KDD Dataset and Wireshark Captured Traffic: A benchmark dataset for intrusion detection, containing labeled normal and attack traffic. Real-time network traffic is also captured using Wireshark, which includes packet details such as source/destination IP, protocol, and payload information.
 
-3. Data Preprocessing:
-• Handling missing values, feature scaling, and encoding categorical data.
-• Extracting meaningful features from Wireshark packet captures (PCAP files).
+2. Data Preprocessing:
+Handling missing values, feature scaling, and encoding categorical data. Extracting meaningful features from Wireshark packet captures (PCAP files).
 
-4. Model Implementation:
-3.1 SVC Model: A classification approach to distinguish between normal and attack traffic.
-3.2 SVR Model: A regression-based approach to predict network behavior deviations.
+3. Model Implementation:
+SVC Model and SVR Model: A classification approach to distinguish between normal and attack traffic and a regression-based approach to predict network behavior deviations.
 
-5. Evaluation: Assessing model performance using metrics like Accuracy and Mean Squared Error (MSE).
+4. Evaluation: Assessing model performance using metrics like Accuracy and Mean Squared Error (MSE).
 
 Technologies Used:
 1. Programming Language- Python
 2. Libraries- numpy, pandas, matplotlib, scikit-learn, pyshark
 
 Dataset:
-1. NSL-KDD Dataset: Contains network traffic features and attack labels.
-2. Wireshark Captured Dataset: Live network traffic captured using Wireshark, which can be converted into CSV format for feature extraction and analysis.
+This project utilizes the NSL-KDD dataset, containing labeled network traffic features for intrusion detection, and Wireshark-captured network traffic (PCAP files), which are processed using PyShark to extract relevant features for real-time analysis in both SVC models.
 
 Usage:
 1. Download the NSL KDD Dataset if not already included.
 2. Update the dataset path in the code if necessary.
-3. Download Wireshark to start capturing network packets, save the captured traffic as a PCAP file and convert PCAP files to structured CSV format using PyShark.
+3. Download Wireshark to start capturing network packets.
 4. Run the corresponding SVC or SVR notebook to test the model.
 5. Analyze output metrics and graphs to evaluate performance.
