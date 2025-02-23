@@ -6,14 +6,11 @@ This project demonstrates how an Intrusion Detection System (IDS) can be impleme
 Project Description:
 Intrusion detection is a critical aspect of cybersecurity, helping to identify malicious activities in network traffic. This project involves
 
-1. Data Collection:
-NSL-KDD Dataset and Wireshark Captured Traffic: A benchmark dataset for intrusion detection, containing labeled normal and attack traffic. Real-time network traffic is also captured using Wireshark, which includes packet details such as source/destination IP, protocol, and payload information.
+1. Data Collection: NSL-KDD Dataset is a benchmark dataset for intrusion detection, containing labeled normal and attack traffic. Wireshark Captured Traffic is used as real-time network traffic is also captured using Wireshark, which includes packet details such as source/destination IP, protocol, and payload information.
 
-2. Data Preprocessing:
-Handling missing values, feature scaling, and encoding categorical data. Extracting meaningful features from Wireshark packet captures (PCAP files).
+2. Data Preprocessing: Handling missing values, feature scaling, and encoding categorical data. Extracting meaningful features from Wireshark packet captures (PCAP files).
 
-3. Model Implementation:
-SVC Model and SVR Model: A classification approach to distinguish between normal and attack traffic and a regression-based approach to predict network behavior deviations.
+3. Model Implementation: SVC Model which is a classification approach to distinguish between normal and attack traffic and a SVR Model which is a regression-based approach to predict network behavior deviations.
 
 4. Evaluation: Assessing model performance using metrics like Accuracy and Mean Squared Error (MSE).
 
