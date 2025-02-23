@@ -7,8 +7,8 @@ Project Description:
 Intrusion detection is a critical aspect of cybersecurity, helping to identify malicious activities in network traffic. This project involves
 
 1. Data Collection:
-1.1. NSL-KDD Dataset: A benchmark dataset for intrusion detection, containing labeled normal and attack traffic.
-1.2. Wireshark Captured Traffic: Real-time network traffic captured using Wireshark, which includes packet details such as source/destination IP, protocol, and payload information.
+NSL-KDD Dataset: A benchmark dataset for intrusion detection, containing labeled normal and attack traffic.
+Wireshark Captured Traffic: Real-time network traffic captured using Wireshark, which includes packet details such as source/destination IP, protocol, and payload information.
 
 3. Data Preprocessing:
 2.1 Handling missing values, feature scaling, and encoding categorical data.
